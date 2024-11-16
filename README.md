@@ -1,9 +1,6 @@
 # 💫 About Me:
 I am a curious student with a strong interest in computer science and a desire to become a computer programmer. I aim to combine my skills and entrepreneurial spirit to own and lead a successful technology company. I am passionate about exploring the field, expanding my knowledge and skills, and leveraging them to create innovative solutions.
 
-## 🌐 Socials:
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/yonatanyishakyifat) 
-
 # 💻 Tech Stack:
 ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white) 
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) 

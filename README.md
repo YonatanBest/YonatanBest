@@ -19,7 +19,7 @@ I am a curious student with a strong interest in computer science and a desire t
 
 ![Status](https://github-readme-stats.vercel.app/api?username=yonatanbest&theme=dark&hide_border=false&include_all_commits=false&count_private=false)
 
-![Status](https://github-readme-streak-stats.herokuapp.com/?user=yonatanbest&theme=dark&hide_border=false)
+[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=YonatanBest&theme=dark)](https://git.io/streak-stats)
 
 ![Status](https://github-readme-stats.vercel.app/api/top-langs/?username=yonatanbest&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
 

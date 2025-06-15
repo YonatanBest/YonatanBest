@@ -1,6 +1,6 @@
 # 💫 About Me
 
-![Welcome](https://readme-typing-svg.demolab.com?font=Fira+Code&duration=3000&pause=1000&color=F7F7F7&center=true&vCenter=true&width=435&lines=Hi+there!+I'm+Yonatan+%F0%9F%91%8B;Aspiring+Tech+Leader+%F0%9F%92%BB;Passionate+about+CS+and+Innovation+%F0%9F%92%A1)
+![Welcome](https://readme-typing-svg.demolab.com?font=Fira+Code&duration=3000&pause=1000&color=F7F7F7&center=true&vCenter=true&width=435&lines=Hi+there!+I'm+Yonatan+%F0%9F%91%8B;Aspiring+Tech+Leader+%F0%9F%92%BB;PPassionate+about+CS+and+Innovation+%F0%9F%92%A1)
 
 I am a curious student with a strong interest in computer science and a desire to become a computer programmer. I aim to combine my skills and entrepreneurial spirit to own and lead a successful technology company. I am passionate about exploring the field, expanding my knowledge and skills, and leveraging them to create innovative solutions.
 

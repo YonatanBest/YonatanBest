@@ -44,8 +44,8 @@ const Home = () => (
                 ))}
             </div>
             <div className="flex gap-6">
-                <a href="/projects" className="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-8 rounded-lg shadow-lg transition-all text-lg">View Projects</a>
-                <a href="/contact" className="bg-green-600 hover:bg-green-700 text-white font-semibold py-2 px-8 rounded-lg shadow-lg transition-all text-lg">Contact Me</a>
+                <a href="/YonatanBest/projects" className="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-8 rounded-lg shadow-lg transition-all text-lg">View Projects</a>
+                <a href="/YonatanBest/contact" className="bg-green-600 hover:bg-green-700 text-white font-semibold py-2 px-8 rounded-lg shadow-lg transition-all text-lg">Contact Me</a>
             </div>
         </div>
     </section>

@@ -9,6 +9,7 @@ import {
     SiJavascript,
     SiTypescript,
 } from "react-icons/si";
+import { Link } from 'react-router-dom';
 
 const techs = [
     { name: "React", icon: SiReact, color: "text-cyan-400" },
@@ -44,8 +45,8 @@ const Home = () => (
                 ))}
             </div>
             <div className="flex gap-6">
-                <a href="/YonatanBest/projects" className="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-8 rounded-lg shadow-lg transition-all text-lg">View Projects</a>
-                <a href="/YonatanBest/contact" className="bg-green-600 hover:bg-green-700 text-white font-semibold py-2 px-8 rounded-lg shadow-lg transition-all text-lg">Contact Me</a>
+                <Link to="/projects" className="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-8 rounded-lg shadow-lg transition-all text-lg">View Projects</Link>
+                <Link to="/contact" className="bg-green-600 hover:bg-green-700 text-white font-semibold py-2 px-8 rounded-lg shadow-lg transition-all text-lg">Contact Me</Link>
             </div>
         </div>
     </section>

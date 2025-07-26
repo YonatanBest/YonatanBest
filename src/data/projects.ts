@@ -1,8 +1,14 @@
 export const projects = [
     {
+        name: "Netsanet",
+        description: "AI-powered support platform for women in Ethiopia, providing legal guidance, appeal letter generation, and a support community. Built at the Cursor Hackathon in just 5 hours.",
+        tech: ["React", "TypeScript", "Vite", "Tailwind CSS", "FastAPI", "Python", "Gemini AI"],
+        github: "https://github.com/YonatanBest/Netsanet",
+    },
+    {
         name: "PC-Transformers",
-        description: "Predictive coding based transformer architecture using ngclearn library.",
-        tech: ["Python", "PyTorch", "ngc-learn", "Transformers"],
+        description: "Contributed at iCog Labs to a predictive coding based transformer architecture.",
+        tech: ["Python", "PyTorch", "Predictive Coding", "Transformers"],
         github: "https://github.com/YonatanBest/PC-Transformers",
     },
     {
@@ -18,12 +24,6 @@ export const projects = [
         github: "https://github.com/YonatanBest/A-Comparative-Analysis-of-Optimizers-for-Classification-with-CNN-BeyondAI-2024",
     },
     {
-        name: "B5W5 Credit Risk Probability Model for Alternative Data",
-        description: "Credit risk probability modeling using alternative data sources.",
-        tech: ["Python", "Machine Learning"],
-        github: "https://github.com/YonatanBest/B5W5-Credit-Risk-Probability-Model-for-Alternative-Data",
-    },
-    {
         name: "Time Series Prediction with SSM and RNN",
         description: "Deep learning models (LSTM, S4/SSM) for multivariate time series prediction on climate data.",
         tech: ["Python", "PyTorch", "NumPy", "Matplotlib"],
@@ -34,11 +34,5 @@ export const projects = [
         description: "AI-powered code generation tool using IBM Watson and prompt engineering.",
         tech: ["Flask", "IBM Watson AI", "Prompt Engineering"],
         github: "https://github.com/YonatanBest/CodeAI",
-    },
-    {
-        name: "TomatoVision",
-        description: "Tomato disease detector using computer vision.",
-        tech: ["Python", "Computer Vision", "ML"],
-        github: "https://github.com/YonatanBest/TomatoVision",
     },
 ]; 

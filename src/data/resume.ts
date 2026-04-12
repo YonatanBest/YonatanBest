@@ -1,113 +1,126 @@
 export const resume = {
-    name: "Yonatan Yishak Yifat",
-    location: "Addis Ababa",
-    email: "yonatanyishak111@gmail.com",
-    links: {
-        linkedin: "https://linkedin.com/in/yonatanyishakyifat",
-        github: "https://github.com/YonatanBest",
-        leetcode: "https://leetcode.com/u/YonatanBest"
+  name: "Yonatan Yishak Yifat",
+  title: "Incoming SWE Intern at Bloomberg",
+  location: "Addis Ababa",
+  email: "yonatanyishak111@gmail.com",
+  links: {
+    linkedin: "https://linkedin.com/in/yonatanyishakyifat",
+    github: "https://github.com/YonatanBest",
+    leetcode: "https://leetcode.com/u/YonatanBest",
+  },
+  education: [
+    {
+      school: "Addis Ababa University",
+      location: "Addis Ababa",
+      degree: "BSc. in Information Systems",
+      graduation: "Sep 2023 - Jul 2027",
+      details:
+        "Relevant courses: OOP, Advanced Programming, Applied Mathematics, Advanced Database, DSA, Statistics, Discrete Mathematics, Information Storage and Retrieval, Event Driven Programming",
     },
-    education: [
-        {
-            school: "Addis Ababa University",
-            location: "Addis Ababa",
-            degree: "Bachelors of Science in Information Systems",
-            graduation: "Expected Aug 2027"
-        }
-    ],
-    skills: {
-        languages: [
-            "Intermediate Python (2yrs)",
-            "Intermediate C++ (2yrs)",
-            "Intermediate JavaScript (1yr)",
-            "Beginner Java (1yr)"
-        ],
-        software: [
-            "Docker", "Jupyter Notebook", "Git", "VSCode", "Linux", "GitHub", "LaTex"
-        ],
-        frameworks: [
-            "Langchain", "Tensorflow", "Flask", "Pytorch", "React", "Scikit Learn", "Numpy", "Seaborn", "Pandas", "ngc-learn"
-        ]
+    {
+      school: "Africa to Silicon Valley",
+      location: "Remote",
+      degree: "Data Structures and Algorithms",
+      graduation: "Aug 2024 - May 2025",
+      details:
+        "Solved 400+ LeetCode and Codeforces problems and spent 1000+ hours on math and algorithms.",
     },
-    experience: [
-        {
-            title: "Machine Learning and NAC Intern",
-            company: "iCog Labs",
-            location: "Addis Ababa, AA",
-            period: "Jan 2025 - Present",
-            bullets: [
-                "Integrated AMP training using PyTorch amp, reducing model training time by ~30% without sacrificing performance.",
-                "Implemented Bayesian hyperparameter tuning with Optuna for PC-Transformer models, including dynamic learning rate scheduling and warm-up configuration, leading to faster convergence in training trials.",
-                "Replaced word-level tokenization with subword-level BPE, resolving uncertainty in Transformer outputs and improving model generalization on rare tokens.",
-                "Discovered and resolved device mismatch in PC-Transformers by refactoring for device-agnostic execution on CUDA.",
-                "Documented research findings and presented technical summaries of 5+ academic papers"
-            ]
-        },
-        {
-            title: "Machine Learning and AI Research Intern",
-            company: "ThinkingBeyond",
-            location: "Skåne County, Lund",
-            period: "Oct 2024 - Dec 2024",
-            bullets: [
-                "Earned a spot in the highly competitive program with an acceptance rate of only 10.7%",
-                "Built and trained 6+ CNN models using TensorFlow on a 10,000-image dataset for binary classification (Cats vs. Dogs)",
-                "Conducted comparative analysis of SGD, Adam, AdaGrad, AdaDelta, RMSprop & Nadam across 4 metrics",
-                "Optimized learning rates and batch sizes, achieving 79.09% accuracy and 79.33% F1-score with AdaGrad",
-                "Led dataset preprocessing, CNN architecture design, and reproducibility pipeline for peer-reviewed experimentation",
-                "Collaborated on a paper titled A Comparative Analysis of Optimization Algorithms for Classification with CNN",
-                "Designed a research poster, which was selected as a finalist"
-            ]
-        },
-        {
-            title: "Research and Data Analysis Intern",
-            company: "Ethioware",
-            location: "Addis Ababa, AA",
-            period: "Jun 2024 - Aug 2024",
-            bullets: [
-                "Designed and deployed targeted surveys to collect high-quality, relevant data for ongoing AI research initiatives",
-                "Engineered and cleaned over 200 raw datasets, improving data integrity and analysis reliability",
-                "Built and validated multiple AI models using 19 selected features, extracting actionable insights for internal use",
-                "Achieved 10% more accuracy for the model from the previous trained model"
-            ]
-        }
+  ],
+  skills: {
+    languages: ["Python", "C++", "JavaScript", "Java", "Go"],
+    software: ["Docker", "Git", "GitHub", "Linux", "VSCode", "Jupyter", "LaTeX"],
+    frameworks: [
+      "React",
+      "Next.js",
+      "FastAPI",
+      "Flask",
+      "PyTorch",
+      "TensorFlow",
+      "LangChain",
+      "Scikit-learn",
+      "NumPy",
+      "Pandas",
+      "Qdrant",
     ],
-    projects: [
-        {
-            name: "AI Keystroke Predictor with Typing Sound",
-            stack: ["Flask", "Random Forest", "Librosa"],
-            period: "Sep 2024 - Dec 2024",
-            bullets: [
-                "Engineered ML system to predict keystrokes from audio, targeting vulnerabilities in acoustic side-channel attacks",
-                "Processed 5,531 labeled audio samples using Librosa to extract relevant acoustic features",
-                "Trained Random Forest classifier, achieving 98.55% accuracy",
-                "Deployed a Flask-based web app to simulate and demonstrate real-world inference risks"
-            ]
-        },
-        {
-            name: "CodeAI – AI-Powered Code Generation Tool",
-            stack: ["Flask", "IBM Watson AI", "Prompt Engineering"],
-            period: "Oct 2024",
-            bullets: [
-                "Developed web app that uses IBM Watson's foundation models to generate code snippets from user-defined specs",
-                "Designed a user-friendly Flask interface with secure prompt customization and dynamic language/framework support"
-            ]
-        },
-        {
-            name: "Time Series Prediction with LSTM and S4 (SSM)",
-            stack: ["PyTorch", "NumPy", "Matplotlib"],
-            period: "Apr 2025 - May 2024",
-            bullets: [
-                "Developed two deep learning models (5-layer LSTM and 5-layer S4) for multivariate climate forecasting",
-                "Built cyclic temporal features and applied sequence modeling to predict mean temperature, humidity, and wind speed",
-                "Achieved strong forecasting performance with S4, improving LSTM's MAE from 2.07°C to 1.60°C",
-                "Visualized prediction trends vs. actual climate patterns; implemented scaling, sequence slicing, and temporal embeddings"
-            ]
-        }
-    ],
-    activities: [
-        "Reboot The Earth International Hackathon - Finalist in hackathon after building AI model for climate farming suggestions (Jun 2024)",
-        "Ethiopian Collegiate Programming Contest - Honorable Mention for problem-solving and algorithmic excellence (Oct 2024)",
-        "IBM TechXchange Pre-Conference watsonx Hackathon - Top 100 project score from 4000+ submissions (Sep 2024 - Oct 2024)",
-        "Ethiopian Statistical Service Technician - Contributed to the 2nd Agricultural Census with technical support (Aug 2024 - Sep 2024)"
-    ]
-}; 
+  },
+  experience: [
+    {
+      title: "Machine Learning Engineer",
+      company: "iCog Labs",
+      location: "Addis Ababa",
+      period: "Sep 2025 - Present",
+      bullets: [
+        "Engineered a context-aware RAG pipeline for MeTTa code with recursive dependency expansion for deeper structural context.",
+        "Developed a query rewriting engine using conversation history to improve multi-turn retrieval relevance.",
+        "Optimized retrieval thresholds and embedding model selection to reduce noise in the context window.",
+        "Architected a backend with Redis/Lua rate limiting and zero-knowledge encryption for multi-provider API key management.",
+        "Technical lead for intern-driven modules, including automated RAG evaluation with RAGAS and CI/CD testing pipelines.",
+      ],
+    },
+    {
+      title: "Machine Learning and Computer Vision Intern",
+      company: "Pi School of AI",
+      location: "Remote",
+      period: "Oct 2025 - Jan 2026",
+      bullets: [
+        "Built a Google Street View API pipeline to acquire and process 55,000+ multi-angle images.",
+        "Used BRISQUE to filter low-quality inputs for robust dataset creation.",
+        "Experimented with YOLO architectures for object detection on commercial exterior features and signage.",
+        "Developed a hybrid recognition system using EasyOCR and OpenAI Vision API verification.",
+      ],
+    },
+    {
+      title: "Software Engineering and Machine Learning Intern",
+      company: "iCog Labs",
+      location: "Addis Ababa",
+      period: "Jan 2025 - Aug 2025",
+      bullets: [
+        "Integrated AMP training using PyTorch amp, reducing model training time by 30% without sacrificing performance.",
+        "Implemented Bayesian hyperparameter tuning with Optuna and dynamic learning rate scheduling, leading to 43% faster convergence for PC-Transformer models.",
+        "Replaced word-level tokenization with subword-level BPE, resulting in a 21% accuracy increase and better generalization.",
+        "Refactored PC-Transformers for device-agnostic execution, resolving a critical CUDA mismatch issue.",
+        "Synthesized and presented technical summaries of 10+ academic papers to inform project strategy.",
+      ],
+    },
+    {
+      title: "Machine Learning and AI Research Intern",
+      company: "ThinkingBeyond",
+      location: "Lund, Sweden",
+      period: "Oct 2024 - Dec 2024",
+      bullets: [
+        "Designed and deployed 6+ modular TensorFlow training pipelines structured for reusability and testing.",
+        "Automated the end-to-end experimentation pipeline, reducing manual setup errors by 40%.",
+        "Benchmarked 5 optimization algorithms and surfaced performance insights for production systems.",
+        "Collaborated on a CNN optimizer comparison paper and presented a finalist poster on system performance.",
+      ],
+    },
+  ],
+  projects: [
+    {
+      name: "AI Keystroke Predictor with Typing Sound",
+      stack: ["Flask", "Random Forest", "Librosa"],
+      period: "Sep 2024 - Dec 2024",
+      bullets: [
+        "Engineered an ML system to predict keystrokes from audio, targeting acoustic side-channel risks.",
+        "Processed 5,531 labeled audio samples using Librosa to extract acoustic features.",
+        "Trained a Random Forest classifier, achieving 98.55% accuracy.",
+        "Developed a Flask web app to simulate inference risks in low-noise environments, tested with 50+ users.",
+      ],
+    },
+    {
+      name: "PixelPilot - Autonomous AI Agent",
+      stack: ["Python", "PySide6", "Gemini", "Win32 API"],
+      period: "Jan 2026 - Present",
+      bullets: [
+        "Developed a Windows desktop AI agent that executes natural-language tasks using Gemini, computer vision, and automation tools.",
+        "Implemented a lazy vision stack with EasyOCR, OpenCV, and Robotics-ER to reduce unnecessary screenshots and improve UI perception.",
+        "Introduced workspace isolation with an agent desktop, side-car preview, process tracking, voice input, and global hotkeys.",
+      ],
+    },
+  ],
+  activities: [
+    "Reboot The Earth International Hackathon - Winner for building AgriLo, an AI assistant for smallholder farmers.",
+    "OpenEPI X Unleash Open Data Hackathon - Team Lead, Top 3 globally and Grand Finale Winner in Kigali, Rwanda.",
+    "IBM TechXchange Pre-Conference Watsonx Hackathon - Top 100 project score from 4000+ submissions.",
+  ],
+};

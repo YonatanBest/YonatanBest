@@ -4,7 +4,6 @@ import tailwindcss from '@tailwindcss/vite'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: '/YonatanBest/',
   plugins: [react(), tailwindcss()],
   server: {
     port: 3000,

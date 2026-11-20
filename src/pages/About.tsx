@@ -36,7 +36,7 @@ const About = () => (
       <p className="kicker">Resume</p>
       <h1>{resume.name}</h1>
       <p>
-        {resume.title}. Based in {resume.location}, focused on AI systems, applied ML, and software engineering.
+        {resume.title}. I’m based in {resume.location}, where I study information systems and co-lead the Hult Prize campus competition at Addis Ababa University.
       </p>
       <div className="hero-actions">
         <a href="/assets/resume.pdf" className="button button-primary" target="_blank" rel="noreferrer">
@@ -67,7 +67,7 @@ const About = () => (
       {resume.experience.map((experience) => (
         <ResumeBlock
           key={`${experience.company}-${experience.title}-${experience.period}`}
-          eyebrow={`${experience.company} / ${experience.location}`}
+          eyebrow={[experience.company, experience.location].filter(Boolean).join(" / ")}
           title={experience.title}
           meta={experience.period}
           bullets={experience.bullets}
@@ -84,6 +84,15 @@ const About = () => (
           details={education.details}
         />
       ))}
+
+      <article className="resume-block">
+        <h3>Additional coursework and programs</h3>
+        <ul>
+          {resume.additionalStudy.map((program) => (
+            <li key={program}>{program}</li>
+          ))}
+        </ul>
+      </article>
 
       <h2>Activities</h2>
       <article className="resume-block">

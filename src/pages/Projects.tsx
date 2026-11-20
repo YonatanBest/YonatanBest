@@ -5,7 +5,7 @@ const Projects = () => (
     <div className="section-header">
       <p className="kicker">Selected work</p>
       <h1>Projects</h1>
-      <p>Recent work only: current agent systems and the strongest ML project from the latest resume.</p>
+      <p>Two projects exploring how software can interpret what happens on a screen or at a keyboard.</p>
     </div>
 
     <div className="project-grid">

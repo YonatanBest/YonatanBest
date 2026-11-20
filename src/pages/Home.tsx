@@ -1,12 +1,11 @@
 import { Link } from "react-router-dom";
-import { projects } from "../data/projects";
 import { resume } from "../data/resume";
 
 const highlights = [
-  "RAG systems",
+  "Associative memory",
+  "Code retrieval",
   "Computer vision",
-  "Desktop agents",
-  "ML infrastructure",
+  "Distributed systems",
 ];
 
 const Home = () => (
@@ -18,7 +17,7 @@ const Home = () => (
         <span className="outline-text">Yishak</span>
       </h1>
       <p className="hero-lede">
-        I build machine learning systems, AI agents, and production-minded tools that move from research ideas to real user workflows.
+        I research associative memory at iCog Labs. At Bloomberg, I rebuilt a valuation pipeline so a calculation that once took ten hours could run in minutes.
       </p>
       <div className="hero-actions" aria-label="Primary actions">
         <Link to="/projects" className="button button-primary">
@@ -31,11 +30,10 @@ const Home = () => (
     </div>
 
     <aside className="hero-panel" aria-label="Portfolio snapshot">
-      <img src="https://github.com/YonatanBest.png" alt="Yonatan Yishak Yifat" className="profile-image" />
       <div>
-        <p className="panel-label">Current focus</p>
-        <h2>{projects[0].name}</h2>
-        <p>{projects[0].description}</p>
+        <p className="panel-label">Current research</p>
+        <h2>{resume.focus.name}</h2>
+        <p>{resume.focus.description}</p>
       </div>
       <div className="highlight-grid">
         {highlights.map((highlight) => (

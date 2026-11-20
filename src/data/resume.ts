@@ -1,7 +1,11 @@
 export const resume = {
   name: "Yonatan Yishak Yifat",
-  title: "Incoming SWE Intern at Bloomberg",
-  location: "Addis Ababa",
+  title: "Machine Learning Researcher at iCog Labs",
+  location: "Addis Ababa, Ethiopia",
+  focus: {
+    name: "Associative memory",
+    description: "I study how continuous Hopfield networks store and retrieve patterns. My work explores when a network should add a new memory prototype, update an existing one, or prune one it rarely uses.",
+  },
   email: "yonatanyishak111@gmail.com",
   links: {
     linkedin: "https://linkedin.com/in/yonatanyishakyifat",
@@ -11,11 +15,10 @@ export const resume = {
   education: [
     {
       school: "Addis Ababa University",
-      location: "Addis Ababa",
-      degree: "BSc. in Information Systems",
-      graduation: "Sep 2023 - Jul 2027",
-      details:
-        "Relevant courses: OOP, Advanced Programming, Applied Mathematics, Advanced Database, DSA, Statistics, Discrete Mathematics, Information Storage and Retrieval, Event Driven Programming",
+      location: "Addis Ababa, Ethiopia",
+      degree: "Bachelor of Science in Information Systems",
+      graduation: "Sep 2023 - Jun 2027 (expected)",
+      details: "I’m currently studying artificial intelligence and human-computer interaction. My coursework includes object-oriented and advanced programming, advanced databases, data structures and algorithms, applied mathematics, discrete mathematics and combinatorics, and statistics.",
     },
     {
       school: "Africa to Silicon Valley",
@@ -26,35 +29,57 @@ export const resume = {
         "Solved 400+ LeetCode and Codeforces problems and spent 1000+ hours on math and algorithms.",
     },
   ],
+  additionalStudy: [
+    "Stanford Machine Learning Specialization, covering supervised and unsupervised learning, recommender systems, and reinforcement learning",
+    "Mathematics for Machine Learning and Data Science Specialization",
+    "BlueDot Impact Technical AI Safety program",
+  ],
   skills: {
-    languages: ["Python", "C++", "JavaScript", "Java", "Go"],
-    software: ["Docker", "Git", "GitHub", "Linux", "VSCode", "Jupyter", "LaTeX"],
-    frameworks: [
-      "React",
-      "Next.js",
-      "FastAPI",
-      "Flask",
-      "PyTorch",
-      "TensorFlow",
-      "LangChain",
-      "Scikit-learn",
-      "NumPy",
-      "Pandas",
-      "Qdrant",
-    ],
+    Languages: ["Python", "C++", "JavaScript", "TypeScript", "SQL", "LaTeX"],
+    "Tools and systems": ["Qdrant", "PostgreSQL", "Redis", "MongoDB", "Docker", "Git", "Linux", "Distributed systems"],
+    "Frameworks and libraries": ["FastAPI", "PyTorch", "TensorFlow", "scikit-learn", "React"],
   },
   experience: [
     {
-      title: "Machine Learning Engineer",
+      title: "Machine Learning Researcher",
       company: "iCog Labs",
-      location: "Addis Ababa",
-      period: "Sep 2025 - Present",
+      period: "Oct 2026 - Present",
       bullets: [
-        "Engineered a context-aware RAG pipeline for MeTTa code with recursive dependency expansion for deeper structural context.",
-        "Developed a query rewriting engine using conversation history to improve multi-turn retrieval relevance.",
-        "Optimized retrieval thresholds and embedding model selection to reduce noise in the context window.",
-        "Architected a backend with Redis/Lua rate limiting and zero-knowledge encryption for multi-provider API key management.",
-        "Technical lead for intern-driven modules, including automated RAG evaluation with RAGAS and CI/CD testing pipelines.",
+        "Developed a Kalman-momentum update for continuous Hopfield networks that improved associative memory retrieval accuracy by 10%.",
+        "Reduced memory size by 47% by adding prototypes when uncertainty was high and pruning those with little support.",
+        "Designed an update rule that lets each prototype learn according to its similarity to an input, its uncertainty, and its momentum.",
+      ],
+    },
+    {
+      title: "Campus Co-Lead & Event Organizer",
+      company: "Hult Prize at Addis Ababa University",
+      period: "Sep 2026 - Present",
+      bullets: [
+        "Co-led the campus social entrepreneurship competition. Our volunteer team reached more than 400 students and recruited over 20 startup teams.",
+        "Led workshops on problem-solving, business development, and pitching to help student founders prepare for competition.",
+      ],
+    },
+    {
+      title: "Software Engineering Intern",
+      company: "Bloomberg L.P.",
+      location: "London, UK",
+      period: "Jun 2026 - Sep 2026",
+      bullets: [
+        "Rebuilt a real-time valuation system as a stateless daily batch pipeline, cutting emergency recomputation from 10 hours to minutes.",
+        "Recomputed more than 140,000 records each day using the latest calculation multipliers.",
+        "Automated a 22-step service process and streamlined communication between teams, reducing manual work by 75%.",
+      ],
+    },
+    {
+      title: "Software Engineer",
+      company: "iCog Labs",
+      location: "Addis Ababa, Ethiopia",
+      period: "Sep 2025 - May 2026",
+      bullets: [
+        "Built a retrieval-augmented coding assistant that helped more than 30 developers find MeTTa code and documentation.",
+        "Improved code retrieval Precision@5 by 12% using Qdrant vector search and recursive dependency expansion.",
+        "Raised Recall@5 by 23% across 10 multi-turn test conversations by rewriting queries with chat history stored in MongoDB.",
+        "Improved response relevance by 50% by benchmarking embedding models and tuning similarity thresholds.",
       ],
     },
     {
@@ -65,8 +90,7 @@ export const resume = {
       bullets: [
         "Built a Google Street View API pipeline to acquire and process 55,000+ multi-angle images.",
         "Used BRISQUE to filter low-quality inputs for robust dataset creation.",
-        "Experimented with YOLO architectures for object detection on commercial exterior features and signage.",
-        "Developed a hybrid recognition system using EasyOCR and OpenAI Vision API verification.",
+        "Improved detection precision for commercial building features and signs by 20% by benchmarking and fine-tuning YOLOv5 and YOLOv7.",
       ],
     },
     {
